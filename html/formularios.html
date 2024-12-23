@@ -24,25 +24,25 @@
             </ul>
         </nav>
     </header>
-    <main class="form-container">
+    <main class="form-container" >
         <h2>Formulario de Contacto</h2>
-        <form   action="https://formspree.io/f/xrbgkkkp"
+        <form  id="main_Form" action="https://formspree.io/f/xrbgkkkp"
         method="POST">
             <div class="form-group">
                 <label for="name">Nombre Completo</label>
-                <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+                <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" minlength="3" required>
             </div>
             <div class="form-group">
                 <label>Selecciona tu Sexo</label>
                 <div class="checkbox-group">
                     <label for="Masculino">
-                        <input type="radio" id="Masculino" name="sex" value="Masculino"> Masculino
+                        <input type="radio" id="Masculino" name="sex" value="Masculino" required> Masculino
                     </label>
                     <label for="Femenino">
-                        <input type="radio" id="Femenino" name="sex" value="Femenino"> Femenino
+                        <input type="radio" id="Femenino" name="sex" value="Femenino" required> Femenino
                     </label>
                     <label for="Otro">
-                        <input type="radio" id="Otro" name="sex" value="Otro"> Otro
+                        <input type="radio" id="Otro" name="sex" value="Otro" required Otro
                     </label>
                 </div>
             </div>
@@ -89,10 +89,10 @@
 
                 <div class="footer-links">
                     <ul>
-                        <li><a href="html/terms.html">Términos y Condiciones</a></li>
-                        <li><a href="html/terms.html">Política de Privacidad</a></li>
-                        <li><a href="html/terms.html">Política de Cookies</a></li>
-                        <li><a href="html/terms.html">Formulario de Contacto</a></li>
+                        <li><a href="terms.html">Términos y Condiciones</a></li>
+                        <li><a href="terms.html">Política de Privacidad</a></li>
+                        <li><a href="terms.html">Política de Cookies</a></li>
+                        <li><a href="terms.html">Formulario de Contacto</a></li>
                     </ul>
                 </div>
                 <div class="footer-copyright">
@@ -100,5 +100,8 @@
                 </div>
             </div>
         </footer>
+
+
+        <script src="../script.js"></script>
 </body>
 </html>

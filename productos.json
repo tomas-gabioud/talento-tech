@@ -1,0 +1,56 @@
+[
+    {
+    "nombre": "Energetic Uva",
+    "imagen": "../images/flavor-1.jpg",
+    "precio": 2800,
+    "descripcion": "bebida energética refrescante con el delicioso sabor de la uva"
+    },
+    {
+    "nombre": "Energetic Naranja",
+    "imagen": "../images/flavor-2.jpg",
+    "precio": 2450,
+    "descripcion": "bebida energética refrescante con el delicioso sabor de la naranja"
+    },
+    {
+    "nombre": "Energetic Tropical",
+    "imagen": "../images/flavor-3.png",
+    "precio": 3200,
+    "descripcion": "bebida energética refrescante con el delicioso sabor una combinación de sabores tropicales"
+    },
+    {
+    "nombre": "Energetic Limón",
+    "imagen": "../images/flavor-4.png",
+    "precio": 1990,
+    "descripcion": "bebida energética refrescante con el delicioso sabor de la limón"
+    },
+    {
+    "nombre": "Energetic Mango",
+    "imagen": "../images/flavor-5.png",
+    "precio": 2900,
+    "descripcion": "bebida energética refrescante con el delicioso sabor de la mango"
+    },
+    {
+    "nombre": "Energetic Maracuyá",
+    "imagen": "../images/flavor-6.jpg",
+    "precio": 2000,
+    "descripcion": "bebida energética refrescante con el delicioso sabor de la maracuyá"
+    },
+    {
+    "nombre": "Energetic Ananá",
+    "imagen": "../images/flavor-7.png",
+    "precio": 2750,
+    "descripcion": "bebida energética refrescante con el delicioso sabor de la ananá"
+    },
+    {
+    "nombre": "Energetic Melón",
+    "imagen": "../images/flavor-8.png",
+    "precio": 2750,
+    "descripcion": "bebida energética refrescante con el delicioso sabor de la melón"
+    },
+    {
+    "nombre": "Energetic Lima",
+    "imagen": "../images/flavor-9.png",
+    "precio": 1899,
+    "descripcion": "bebida energética refrescante con el delicioso sabor de la lima"
+    }
+]

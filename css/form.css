@@ -89,10 +89,10 @@ h2 {
 
 
 /* Media queries tablet */
-@media (min-width: 768px) and (max-width: 1200px){
+@media (min-width: 601px) and (max-width: 1200px){
     .form-container{
         margin-top: 25px;
         height: 72vh;
-        width: 50%;
+        width: 70%;
     }
 }

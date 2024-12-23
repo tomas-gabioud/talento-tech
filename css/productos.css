@@ -14,7 +14,7 @@
     font-family: monospace;
 }
 
-.container div{
+.container .product-card{
     background-color: rgb(239, 233, 223);
     width: 70%;
     border: 2px solid black;
@@ -60,7 +60,38 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra más prominente */
 }
 
+.container div .product-description{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: none;
+    display: flex;
 
+}
+.container div p{
+    width: 70%;
+    outline: 2px solid rgb(98, 182, 38);
+    border-radius: 4px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container .cart-message {
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    background-color: #4CAF50;
+    outline: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    display: none; 
+    transition: opacity 0.3s ease-in-out;
+}
+
+.cart-message.show {
+    opacity: 1;
+    display: block;
+}
 
 
 /* Media queries celular */
@@ -70,7 +101,11 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
+    .container .cart-message{
+        width: 85%;
+    }
 }
+
 
 
 
@@ -80,4 +115,15 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .container .cart-message{
+        width: 85%;
+    }
 }
+
+
+
+
+
+
+
+
