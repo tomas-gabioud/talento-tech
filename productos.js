@@ -1,5 +1,5 @@
 // Consumimos los productos del JSON.
-fetch('/productos.json')
+fetch('https://tomas-gabioud.github.io/talento-tech/productos.json')
     .then(response => {
         if (!response.ok) {
             throw new Error('Error al cargar el archivo JSON');
